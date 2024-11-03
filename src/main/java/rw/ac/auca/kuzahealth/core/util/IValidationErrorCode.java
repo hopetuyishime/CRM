@@ -1,0 +1,9 @@
+package rw.ac.auca.kuzahealth.core.util;
+
+public interface IValidationErrorCode {
+  //product validation error code message
+  String PRODUCT_SERIAL_NUMBER_REQUIRED_CODE = "PRODUCT_SERIAL_NUMBER_REQUIRED.code";
+  String PRODUCT_MANUFACTURER_DATE_REQUIRED_CODE = "PRODUCT_MANUFACTURER_DATE_REQUIRED.code";
+  String PRODUCT_EXPIRATION_DATE_REQUIRED_CODE = "PRODUCT_EXPIRATION_DATE_REQUIRED.code";
+  String PRODUCT_CATEGORY_REQUIRED_CODE = "PRODUCT_CATEGORY_REQUIRED.code";
+}
